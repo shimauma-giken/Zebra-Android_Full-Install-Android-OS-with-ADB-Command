@@ -4,7 +4,7 @@
 本ガイドはWindows 11 を前提に手順を説明する。他OSをお使いの場合は該当OSのReference ガイドを確認すること。
 
 ### 参考
-Android端末のOSアップデート
+Android端末のOSアップデート  </br>
 https://supportcommunity.zebra.com/s/article/Updating-OS-on-an-Android-Device?language=ja
 <br>
 <br>
