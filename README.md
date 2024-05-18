@@ -46,7 +46,7 @@ https://supportcommunity.zebra.com/s/article/Updating-OS-on-an-Android-Device?la
     - Apply Upgrade from ADB
     - Apply Downgrade from ADB
 
-    `※ 端末OSと同じバージョンをインストールする場合はUpgradeを選択すること。`
+    `※ 端末OSと同じバージョンをインストールする場合はUpgradeを選択すること。` </br>
     `※ 誤った選択をした場合はエラーとなり、処理は中断するので注意。`
     <br>
     
