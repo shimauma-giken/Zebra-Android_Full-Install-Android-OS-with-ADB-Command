@@ -27,7 +27,7 @@ https://supportcommunity.zebra.com/s/article/Updating-OS-on-an-Android-Device?la
 2. コマンドラインから接続確認をする
    
     ```
-    C:\Users\moget>adb devices
+    C:\Users\xxxxxx>adb devices
     List of devices attached
     22263524700656  device
     ```
@@ -36,7 +36,7 @@ https://supportcommunity.zebra.com/s/article/Updating-OS-on-an-Android-Device?la
 
 3. Android端末をリカバリモードにする。
     ```
-    C:\Users\moget>adb reboot recovery
+    C:\Users\xxxxxx>adb reboot recovery
     ```
     <br>
 
@@ -53,11 +53,11 @@ https://supportcommunity.zebra.com/s/article/Updating-OS-on-an-Android-Device?la
 
 5. adb sideload コマンドを用いてインストールを開始する。
     ```
-    C:\Users\moget\Downloads\ET45>dir
+    C:\Users\xxxxxx\Downloads\ET45>dir
     Volume in drive C has no label.
     Volume Serial Number is 261D-CA0F
 
-    Directory of C:\Users\moget\Downloads\ET45
+    Directory of C:\Users\xxxxxx\Downloads\ET45
 
     2024/05/18  19:10    <DIR>          .
     2024/05/18  19:10    <DIR>          ..
@@ -65,7 +65,7 @@ https://supportcommunity.zebra.com/s/article/Updating-OS-on-an-Android-Device?la
                 1 File(s)  2,249,877,386 bytes
                 2 Dir(s)  457,634,787,328 bytes free
 
-    C:\Users\moget\Downloads\ET45>adb sideload GO_FULL_UPDATE_13-28-24.00-TG-U00-STD-GSE-04.zip
+    C:\Users\xxxxxx\Downloads\ET45>adb sideload GO_FULL_UPDATE_13-28-24.00-TG-U00-STD-GSE-04.zip
     ```
     <br>
 
@@ -84,6 +84,6 @@ https://supportcommunity.zebra.com/s/article/Updating-OS-on-an-Android-Device?la
 8. OSの更新確認をする。
    
    ```
-   C:\Users\moget\Downloads\ET45>adb shell getprop ro.build.id
+   C:\Users\xxxxxx\Downloads\ET45>adb shell getprop ro.build.id
     13-28-24.00-TG-U00-STD-GSE-04
     ```
